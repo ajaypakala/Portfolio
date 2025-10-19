@@ -1,0 +1,33 @@
+h3{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+ul{
+    font-size: larger;
+    font-style: italic;
+}h3 {
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    font-size: larger;
+    font-style: italic;
+}
+
+.pd {
+    margin: 0.5rem 0 1rem 0;
+    font-style: normal;
+}
+
+.comp {
+    margin-top: 1rem;
+}
+body{
+    background-image: url('https://i.postimg.cc/ZqTNRT4k/Gemini-Generated-Image-uxwwf1uxwwf1uxww.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
