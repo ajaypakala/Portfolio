@@ -127,12 +127,13 @@ ul li:hover ul li {
     ul li {
         width: auto;
         min-width: 160px;
-        white-space: normal;
-        word-break: break-word;
         float: left;
         font-size: 18px;
         height: auto;
         line-height: normal;
-        padding: 8px 0;
+        padding: 10px 0;
+        text-align: center;
+        word-break: break-word;
+        white-space: normal;
     }
 }
