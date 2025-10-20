@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 ul {
     margin: 0;
@@ -19,6 +20,8 @@ ul li {
     float: right;
     width: 200px;
     height: 40px;
+    word-wrap: break-word;
+    white-space: normal;
     background-color: #003542;
     opacity: 0.9;
     line-height: 40px;
@@ -122,8 +125,9 @@ ul li:hover ul li {
         padding: 6px 10px;
     }
     ul li {
+        width: 100%;
         float: left;
-        font-size: 16px;
+        font-size: 18px;
         height: auto;
         line-height: normal;
         padding: 8px 0;
