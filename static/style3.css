@@ -1,33 +1,53 @@
-h3{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url('https://i.postimg.cc/ZqTNRT4k/Gemini-Generated-Image-uxwwf1uxwwf1uxww.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h3 {
     font-size: xx-large;
     font-style: italic;
     text-align: center;
 }
-ul{
-    font-size: larger;
-    font-style: italic;
-}h3 {
-    font-size: xx-large;
-    font-style: italic;
-    text-align: center;
-}
-
 ul {
     font-size: larger;
     font-style: italic;
 }
-
 .pd {
     margin: 0.5rem 0 1rem 0;
     font-style: normal;
 }
-
 .comp {
     margin-top: 1rem;
 }
-body{
-    background-image: url('https://i.postimg.cc/ZqTNRT4k/Gemini-Generated-Image-uxwwf1uxwwf1uxww.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 768px) {
+    h3 {
+        font-size: x-large;
+        padding: 0 10px;
+    }
+    ul {
+        font-size: medium;
+        padding-left: 20px;
+    }
+    .pd {
+        margin: 0.4rem 0 0.8rem 0;
+    }
+}
+@media (max-width: 480px) {
+    h3 {
+        font-size: large;
+    }
+    ul {
+        font-size: small;
+        padding-left: 15px;
+    }
+    .pd {
+        margin: 0.3rem 0 0.6rem 0;
+    }
 }

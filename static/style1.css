@@ -1,14 +1,40 @@
-body{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
     background-image: url('https://i.postimg.cc/dVX8WMKx/Gemini-Generated-Image-hkojghkojghkojgh.png');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
 }
-h2{
+h2 {
     font-size: xx-large;
     font-style: italic;
 }
-p{
+p {
     font-size: larger;
     font-style: italic;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: x-large;
+        text-align: center;
+        padding: 0 10px;
+    }
+    p {
+        font-size: medium;
+        text-align: center;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 480px) {
+    h2 {
+        font-size: large;
+    }
+    p {
+        font-size: small;
+    }
 }
