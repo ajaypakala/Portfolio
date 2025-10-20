@@ -29,4 +29,21 @@
         <li><a href="{{ url_for('home') }}">Home</a></li>
     </ul>
 </body>
+<script>
+    function checkDevice() {
+        const body = document.querySelector('body');
+        if (window.innerWidth <= 768) {
+            alert("Please switch to desktop mode for the best experience.");
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    }
+
+    // Check on page load
+    window.onload = checkDevice;
+
+    // Optional: Check on resize too (e.g., when rotating phone)
+    window.onresize = checkDevice;
+</script>
 </html>
