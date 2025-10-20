@@ -125,7 +125,10 @@ ul li:hover ul li {
         padding: 6px 10px;
     }
     ul li {
-        width: 100%;
+        width: auto;
+        min-width: 160px;
+        white-space: normal;
+        word-break: break-word;
         float: left;
         font-size: 18px;
         height: auto;
