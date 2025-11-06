@@ -41,7 +41,7 @@ def bp():
 
 @app.route('/resume')
 def resume():
-    return send_from_directory(os.path.join(app.root_path, 'Certificates'), 'Ajay Resume.pdf')
+    return send_from_directory(os.path.join(app.root_path, 'Certificates'), 'Ajay_Babu_Resume.pdf')
 
 if __name__ == '__main__':
     app.run(debug=True)
